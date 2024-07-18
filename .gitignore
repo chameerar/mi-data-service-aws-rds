@@ -1,0 +1,41 @@
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# Maven specific files
+target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Compiled class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.car
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Eclipse configuration files
+*.launch
+
+# Working sets
+*.wset
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+
+# VS Code files
+.vscode/

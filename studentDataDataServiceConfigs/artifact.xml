@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="studentDataService" groupId="io.github.chameerar.dataservice" version="1.0.0" type="service/dataservice" serverRole="DataServicesServer">
+        <file>dataservice/studentDataService.dbs</file>
+    </artifact>
+</artifacts>

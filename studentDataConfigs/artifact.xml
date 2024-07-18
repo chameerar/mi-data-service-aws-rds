@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="student-api" groupId="io.github.chameerar.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/student-api.xml</file>
+    </artifact>
+    <artifact name="student-api_swagger" groupId="io.github.chameerar.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/student-api_swagger.yaml</file>
+    </artifact>
+    <artifact name="student-api_metadata" groupId="io.github.chameerar.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/student-api_metadata.yaml</file>
+    </artifact>
+</artifacts>

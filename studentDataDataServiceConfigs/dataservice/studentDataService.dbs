@@ -1,0 +1,19 @@
+<data name="studentDataService" serviceNamespace="" serviceGroup="" transports="http https">
+  <description />
+  <query id="getStudent" useConfig="AWSMySQLDS">
+    <sql>select id, name from students;</sql>
+    <result element="Entries" rowName="Entry">
+      <element name="id" column="id" xsdType="string" />
+      <element name="name" column="name" xsdType="string" />
+    </result>
+  </query>
+  <operation name="GetStudent">
+    <call-query href="getStudent" />
+  </operation>
+  <config id="AWSMySQLDS">
+    <property name="driverClassName">com.mysql.jdbc.Driver</property>
+    <property name="url">jdbc:mysql://database-mysql.cro8sqmu2cq9.eu-north-1.rds.amazonaws.com:3306/studentdb</property>
+    <property name="username">admin</property>
+    <property xmlns:svns="http://org.wso2.securevault/configuration" name="password" svns:secretAlias="dbpass" />
+  </config>
+</data>

@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: student-api
+  description: API Definition of student-api
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/students
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response
